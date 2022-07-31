@@ -1,0 +1,25 @@
+{
+  "name": "plextickets",
+  "version": "1.4.0",
+  "description": "Plex Tickets",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Swqpping",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "ansi-colors": "^4.1.3",
+    "discord-html-transcripts": "^2.2.8",
+    "discord.js": "^13.8.1",
+    "enmap": "^5.9.0",
+    "glob": "^7.2.0",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "stripe": "^9.11.0"
+  }
+}
